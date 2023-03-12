@@ -1,3 +1,4 @@
+#prepare: docker rmi -f $(docker images -q) && docker system prune -f
 #-layers
 #-cache
 #-dockerignore
