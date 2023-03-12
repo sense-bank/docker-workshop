@@ -1,0 +1,8 @@
+.dockerignore
+.git
+tmp
+app
+conf
+Dockerfile
+*.dockerfile
+**/*.tar.gz
