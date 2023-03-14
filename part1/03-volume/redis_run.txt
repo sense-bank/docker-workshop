@@ -1,0 +1,3 @@
+docker run --name redis --rm -d redis
+docker exec -it redis redis-cli
+docker run --name redis --rm -d -v $(pwd)/data:/data redis
